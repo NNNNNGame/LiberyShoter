@@ -1,4 +1,4 @@
-using Unity.VisualScripting;
+using System;
 using UnityEngine;
 
 public class SimpleHands : Weapon
@@ -7,14 +7,21 @@ public class SimpleHands : Weapon
     
     public override void Attack()
     {
+        isAttack = true;
+    }
+
+    private void Update()
+    {
         isAttack = false;
     }
 
-    private void OnCollisionEnter2D(Collision collision)
+
+    private void OnTrigerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.GetComponent<ILivingObject>() != null)
         {
-            
+            collision.gameObject.GetComponent<ILivingObject>().Damage(damage);
+            Debug.Log("ddddd");
         }
     }
 }

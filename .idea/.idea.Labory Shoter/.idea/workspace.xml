@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="389251d3-9a55-43f4-b162-bb81da75f923" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labory Shoter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labory Shoter/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labory Shoter/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labory Shoter/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labory Shoter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labory Shoter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/InputSystem/InputNew.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/InputSystem/InputNew.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/InputSystem/InputNew.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/InputSystem/InputNew.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Enemys.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Enemys/Enemy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Enemys/Enemy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Enemys/Flag.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Enemys/Flag.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/GameIntarfase.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/GameIntarfase/ILivingObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/GameIntarfase/ILivingObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Player/Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Player/Player.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Player/SimpleLibrarian.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Player/SimpleLibrarian.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Thing.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Thing/Thing.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Thing/Thing.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Weapon.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Weapon/SimpleHands.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Weapon/SimpleHands.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Weapon/Weapon.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Weapon/Weapon.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Enemys/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemys/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Players/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Players/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Players/SimpleLibrarian.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Players/SimpleLibrarian.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Things/Thing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Things/Thing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Weapons/SimpleHands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Weapons/SimpleHands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Weapons/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Weapons/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +56,12 @@
         <option value="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Enemys/Flag.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scenes/Scripts/Enemys/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Things/Thing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Players/SimpleLibrarian.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Players/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Weapons/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Weapons/SimpleHands.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Enemys/Enemy.cs" />
       </list>
     </option>
   </component>
@@ -99,12 +108,57 @@
       <workItem from="1670159211136" duration="5286000" />
       <workItem from="1670184439695" duration="643000" />
       <workItem from="1670259940944" duration="375000" />
+      <workItem from="1670427689036" duration="1189000" />
+      <workItem from="1670522224079" duration="595000" />
+      <workItem from="1670759785785" duration="2255000" />
+      <workItem from="1670763729888" duration="3009000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1350" height="630" key="VCS.FileHistoryDialog" timestamp="1670760444645">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="VCS.FileHistoryDialog/0.0.1536.816@0.0.1536.816" timestamp="1670760444645" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1670759841034">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1670759841034" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Project/Scripts/Enemys/Enemy.cs</url>
+          <line>62</line>
+          <properties documentPath="G:\Labory Shoter\Assets\Project\Scripts\Enemys\Enemy.cs" initialLine="53">
+            <startOffsets>
+              <option value="1317" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1318" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

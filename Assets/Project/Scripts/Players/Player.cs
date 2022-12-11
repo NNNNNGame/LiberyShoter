@@ -9,15 +9,19 @@ public abstract class Player : MonoBehaviour,ILivingObject
 
     private InputNew _inputNew;
 
-    public List<Thing> things;
+    public List<Thing> things = new List<Thing>();
 
-    public List<Weapon> weapons;
+    public List<Weapon> weapons = new List<Weapon>();
+
+    public Weapon chosenWeapon;
 
     public int health = 100;
         
     private void Awake() 
     {
         _inputNew = new InputNew();
+
+        _inputNew.Main.Attack.performed += context => Attack();
     }
 
     public void Damage(int damage)
@@ -51,7 +55,11 @@ public abstract class Player : MonoBehaviour,ILivingObject
 
     private void Attack()
     {
-        
+        if (chosenWeapon != null)
+        {
+            chosenWeapon.Attack();
+            Debug.Log("dddrrrrrrrrrrrrrrrr");
+        }
     }
     
     private void Update()

@@ -1,11 +1,13 @@
 using System;
 using UnityEngine;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor;
+using UnityEngine.AI;
 
 public abstract class Enemy : MonoBehaviour,ILivingObject
 {
-    public float VisibilityRadius = 10;
+    public float visibilityRadius = 10;
 
     private GameObject _hostilObject;
 
@@ -14,12 +16,19 @@ public abstract class Enemy : MonoBehaviour,ILivingObject
     public int health = 100;
 
     public int demage;
+    
+    private NavMeshAgent _agent;
+
+    private void Start()
+    {
+        _agent = gameObject.AddComponent<NavMeshAgent>();
+    }
 
     private void AssignmentHostilObject()
     {
         if (_hostilObject == null)
         {
-            RaycastHit2D hit = Physics2D.CircleCast(transform.position, VisibilityRadius, transform.position,0f);
+            RaycastHit2D hit = Physics2D.CircleCast(transform.position, visibilityRadius, transform.position,0f);
 
             if (hit.collider.gameObject.GetComponent<Player>() != null)
             {
@@ -36,16 +45,16 @@ public abstract class Enemy : MonoBehaviour,ILivingObject
 
     private void GoToHostilObject()
     {
-        if (Vector2.Distance(_hostilObject.transform.position,transform.position) > 3)
+        if (Vector2.Distance(transform.position,_hostilObject.transform.position) < 3)
         {
-            transform.Translate((_hostilObject.transform.position - transform.position) * speed * Time.deltaTime);
+            _agent.SetDestination(_hostilObject.transform.position);
         }
     }
 
     public void Damage(int damage)
     {
         health -= damage;
-        if (health <= 0)
+        if (health <= 0) 
         {
             Dead();
         }
@@ -58,6 +67,10 @@ public abstract class Enemy : MonoBehaviour,ILivingObject
     private void Update()
     {
         AssignmentHostilObject();
-        GoToHostilObject();
+        
+        if (_hostilObject)
+        {
+            GoToHostilObject();
+        }
     }
 }
