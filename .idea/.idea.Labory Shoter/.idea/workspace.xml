@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389251d3-9a55-43f4-b162-bb81da75f923" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labory Shoter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labory Shoter/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labory Shoter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labory Shoter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/InputSystem/InputNew.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/InputSystem/InputNew.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/InputSystem/InputNew.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/InputSystem/InputNew.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Enemys/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Enemys/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Players/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Players/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Players/SimpleLibrarian.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Players/SimpleLibrarian.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Things/Thing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Things/Thing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Weapons/SimpleHands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Weapons/SimpleHands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Weapons/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Weapons/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="389251d3-9a55-43f4-b162-bb81da75f923" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +98,7 @@
       <workItem from="1670427689036" duration="1189000" />
       <workItem from="1670522224079" duration="595000" />
       <workItem from="1670759785785" duration="2255000" />
-      <workItem from="1670763729888" duration="3009000" />
+      <workItem from="1670763729888" duration="3593000" />
     </task>
     <servers />
   </component>
